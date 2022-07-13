@@ -23,7 +23,7 @@ namespace ejercicio1dejoaquinzampelungherecuperatorio
 			pesos = dolares * 280;
 			Console.WriteLine($"Con {dolares} dolares se puede comprar {pesos} pesos en el mercado paralelo:");
 
-			euros = dolares * 1.17;
+			euros = dolares / 1.17;
 			Console.WriteLine($" {dolares} dolares equivalen a {euros} euros:");
 
 			Console.ReadLine();
